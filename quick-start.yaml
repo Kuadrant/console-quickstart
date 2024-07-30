@@ -1,19 +1,19 @@
 apiVersion: console.openshift.io/v1
 kind: ConsoleQuickStart
 metadata:
-  name: rhcl
+  name: kuadrant
 spec:
-  conclusion: 'Red Hat Connectivity Link is ready to use. '
-  description: Get Red Hat Connectivity Link installed and create your first Gateway policies.
-  displayName: Get started with Red Hat Connectivity Link
+  conclusion: 'Kuadrant is ready to use. '
+  description: Get Kuadrant installed and create your first Gateway policies.
+  displayName: Get started with Kuadrant
   durationMinutes: 5
   icon: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDM4IDM4Ij48ZGVmcz48c3R5bGU+LnV1aWQtOTJmMDMwMjAtNjg2ZS00YTM4LTk3NjQtNDVjOWIwNzJiOWNme2ZpbGw6IzAwMDt9LnV1aWQtOTJmMDMwMjAtNjg2ZS00YTM4LTk3NjQtNDVjOWIwNzJiOWNmLC51dWlkLTk1MzcyMDA1LWM4MTItNGVmZS1iZGI0LWFmZjNlZTM5NjMxYSwudXVpZC04NDY2M2JiNC0xOTJlLTQ2ZTYtYjk5ZS1jMWViOTFjYjZkNDAsLnV1aWQtZDQ5ZTM2MjQtYTg5Zi00OTJlLWIxNjItNjY5MTA2ZmI3NTlie3N0cm9rZS13aWR0aDowcHg7fS51dWlkLTk1MzcyMDA1LWM4MTItNGVmZS1iZGI0LWFmZjNlZTM5NjMxYXtmaWxsOiM0ZDRkNGQ7fS51dWlkLTg0NjYzYmI0LTE5MmUtNDZlNi1iOTllLWMxZWI5MWNiNmQ0MHtmaWxsOiNlMDA7fS51dWlkLWQ0OWUzNjI0LWE4OWYtNDkyZS1iMTYyLTY2OTEwNmZiNzU5YntmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJ1dWlkLTBiNmIyMmJkLTIzNWMtNDRmYS05MDhkLWZmNjZhNjBiNjJmNyI+PHJlY3QgY2xhc3M9InV1aWQtOTJmMDMwMjAtNjg2ZS00YTM4LTk3NjQtNDVjOWIwNzJiOWNmIiB4PSIxIiB5PSIxIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHJ4PSI5IiByeT0iOSIvPjxwYXRoIGNsYXNzPSJ1dWlkLTk1MzcyMDA1LWM4MTItNGVmZS1iZGI0LWFmZjNlZTM5NjMxYSIgZD0iTTI4LDIuMjVjNC4yNzM0LDAsNy43NSwzLjQ3NjYsNy43NSw3Ljc1djE4YzAsNC4yNzM0LTMuNDc2Niw3Ljc1LTcuNzUsNy43NUgxMGMtNC4yNzM0LDAtNy43NS0zLjQ3NjYtNy43NS03Ljc1VjEwYzAtNC4yNzM0LDMuNDc2Ni03Ljc1LDcuNzUtNy43NWgxOE0yOCwxSDEwQzUuMDI5NCwxLDEsNS4wMjk0LDEsMTB2MThjMCw0Ljk3MDYsNC4wMjk0LDksOSw5aDE4YzQuOTcwNiwwLDktNC4wMjk0LDktOVYxMGMwLTQuOTcwNi00LjAyOTQtOS05LTloMFoiLz48L2c+PGcgaWQ9InV1aWQtMTgzODI5YjctNGFhMS00MDQ3LWFiYzgtZWExMjkzZDY5ZjIwIj48cGF0aCBjbGFzcz0idXVpZC1kNDllMzYyNC1hODlmLTQ5MmUtYjE2Mi02NjkxMDZmYjc1OWIiIGQ9Ik0xOC4zOTIxLDI1LjYyNWgtNi45MjgyYy0uMjIzMSwwLS40Mjk3LS4xMTkxLS41NDE1LS4zMTI1bC0zLjQ2MzktNmMtLjExMTMtLjE5MzQtLjExMTMtLjQzMTYsMC0uNjI1bDMuNDYzOS02Yy4xMTE4LS4xOTM0LjMxODQtLjMxMjUuNTQxNS0uMzEyNWg0LjUzNjFjLjM0NTIsMCwuNjI1LjI3OTguNjI1LjYyNXMtLjI3OTguNjI1LS42MjUuNjI1aC00LjE3NTNsLTMuMTAzLDUuMzc1LDMuMTAzLDUuMzc1aDYuMjA2NWwzLjI4NDItNS42ODc1Yy4xNzA5LS4yOTg4LjU1MTgtLjQwMjguODUzNS0uMjI5LjI5ODguMTcyOS40MDE0LjU1NTIuMjI4NS44NTRsLTMuNDY0NCw2Yy0uMTExMy4xOTM0LS4zMTc5LjMxMjUtLjU0MS4zMTI1WiIvPjxwYXRoIGNsYXNzPSJ1dWlkLTg0NjYzYmI0LTE5MmUtNDZlNi1iOTllLWMxZWI5MWNiNmQ0MCIgZD0iTTI2LjUzNjEsMjUuNjI1aC00LjUzNjFjLS4zNDQ3LDAtLjYyNS0uMjc5OC0uNjI1LS42MjVzLjI4MDMtLjYyNS42MjUtLjYyNWg0LjE3NDhsMy4xMDM1LTUuMzc1LTMuMTAzNS01LjM3NWgtNi4yMDYxbC0zLjI4MzcsNS42ODc1Yy0uMTczMy4yOTk4LS41NTQyLjQwMDktLjg1NC4yMjktLjI5ODgtLjE3MjktLjQwMTQtLjU1NTItLjIyOS0uODU0bDMuNDY0NC02Yy4xMTEzLS4xOTM0LjMxNzQtLjMxMjUuNTQxLS4zMTI1aDYuOTI4N2MuMjIzNiwwLC40Mjk3LjExOTEuNTQxLjMxMjVsMy40NjM5LDZjLjExMjMuMTkzNC4xMTIzLjQzMTYsMCwuNjI1bC0zLjQ2MzksNmMtLjExMTMuMTkzNC0uMzE3NC4zMTI1LS41NDEuMzEyNVoiLz48L2c+PC9zdmc+
-  introduction: "**Red Hat Connectivity Link** is a new product offering that delivers a 
+  introduction: "**Kuadrant** is a new product offering that delivers a 
     streamlined & composable approach to Application Connectivity, 
     API Management & Policy Management. It is a Kubernetes-native solution that simplifies:
      \n- Resource Management.\n- Gateway API Policy Management\n- API Lifecycle Management & Oversight"
   tasks:
-  - description: "To install the Connectivity Link Operator:
+  - description: "To install the Kuadrant Operator:
       \n1. Click on the [perspective switcher]{{highlight qs-perspective-switcher}} at the top of the navigation, and select **Administrator**.
       \n1. In the navigation menu, click [Operators]{{highlight qs-nav-operators}}.
       \n1. Click the **OperatorHub** menu item.
@@ -22,9 +22,9 @@ spec:
       \n1. At the top of the panel that opens, click the **Install** button.
       \n1. Ensure the **Update channel** field, is set to `stable`
       \n1. The **Installed Namespace** field, is set to `openshift-operators` by default - change this if you wish
-      \n1. Lastly, click **Install** to install the Connectivity Link Operator.
+      \n1. Lastly, click **Install** to install the Kuadrant Operator.
       \n1. Navigate to the **Installed Operators** area
-      \n1. Wait for the Connectivity Link Operator's status to change from **Installing** to **Succeeded**.
+      \n1. Wait for the Kuadrant Operator's status to change from **Installing** to **Succeeded**.
       "
     review:
       failedTaskHelp: This task isn’t verified yet. Try the task again.
@@ -34,7 +34,7 @@ spec:
         1. Is the **Status** of the Operator **Succeeded**?
     summary:
       failed: Try the steps again.
-      success: Red Hat Connectivity Link has been deployed onto OpenShift.
+      success: Kuadrant has been deployed onto OpenShift.
     title: Install the Operator
   - description: "To view the build status of the Spring application:\n1. Hover over
       the icon on the bottom left quadrant of the **rest-http-example** deployment
